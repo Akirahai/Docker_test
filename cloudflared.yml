@@ -1,0 +1,11 @@
+tunnel: fastapi-tun
+credentials-file: /home/long_2/.cloudflared/91307f5c-3804-4206-b0ee-3f025b5cf217.json
+protocol: "http2"
+edge-ip-version: "4"
+
+ingress:
+  - hostname: api.leviethai.me
+    service: http://localhost:8000
+    originRequest:
+      http2-origin: true
+  - service: http_status:404
