@@ -133,8 +133,7 @@ curl -X POST https://xxxxxx.lhr.life/replace \
 
 ## 🔑 Notes
 - For a stable public URL, use a persistent tunnel with your SSH key and localhost.run account.
-- All output images are saved in the `output` folder and served at `/output/<filename>`.
-
+- All output images are saved in the `output` folder and served at `/output/<filename>`, it will generate a link to support online access to redacted images.
 ---
 
 ## License
